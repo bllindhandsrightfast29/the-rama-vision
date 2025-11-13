@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - The Rama Vision</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">THE RAMA VISION</div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="packages.html" class="nav-link">Packages</a>
+                <a href="faqs.html" class="nav-link">FAQs</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Let's Create Together</h1>
+        <p>Get in touch to book your session or ask questions</p>
+    </section>
+
+    <!-- Urgency Banner -->
+    <section class="urgency-banner">
+        <div class="container">
+            <p class="urgency-text">📞 We typically respond within 2 hours · 🎯 Free consultation, no obligations</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Type *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="wedding">Wedding Photography</option>
+                                <option value="corporate">Corporate Event</option>
+                                <option value="sports">Sports Photography</option>
+                                <option value="drone">Drone/Aerial Photography</option>
+                                <option value="custom">Custom Package</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Event Date</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Event *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Please share details about your event, vision, and any specific requirements..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:Theramavision@gmail.com">Theramavision@gmail.com</a></p>
+                        <p class="info-note">We typically respond within 24 hours</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday: 10:00 AM - 4:00 PM</p>
+                        <p>Sunday: By Appointment Only</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>What to Expect</h3>
+                        <ul class="expect-list">
+                            <li>Quick response time (within 24 hours)</li>
+                            <li>Personalized consultation</li>
+                            <li>Transparent pricing</li>
+                            <li>Flexible scheduling options</li>
+                            <li>Professional service from start to finish</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>Ready to Book?</h3>
+                        <p class="info-note">Our calendar fills up quickly, especially during peak wedding season (May-October). We recommend booking 6-12 months in advance for weddings and 1-2 months for other events.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The Rama Vision captured our wedding day perfectly! Every moment was beautifully documented. We couldn't be happier with the results."</p>
+                    <p class="testimonial-author">- Sarah & Michael</p>
+                    <p class="testimonial-service">Wedding Photography</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Professional, efficient, and creative. The aerial shots of our property were absolutely stunning. Highly recommended for corporate work!"</p>
+                    <p class="testimonial-author">- Jennifer Chen</p>
+                    <p class="testimonial-service">Corporate & Drone Photography</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Amazing action shots of our football team! The quality and energy captured in each photo is incredible. Parents love the gallery!"</p>
+                    <p class="testimonial-author">- Coach Williams</p>
+                    <p class="testimonial-service">Sports Photography</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">THE RAMA VISION</div>
+                <div class="footer-contact">
+                    <p>Email: <a href="mailto:Theramavision@gmail.com">Theramavision@gmail.com</a></p>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2024 The Rama Vision. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
