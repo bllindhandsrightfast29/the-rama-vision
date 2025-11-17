@@ -63,6 +63,12 @@ The Rama Vision provides premium photo booth rental services for events includin
 
 ## Recent Updates
 
+### November 16, 2024
+- Updated FAQs page with actual photo booth service questions
+- Replaced placeholder photography FAQs with booth-specific content
+- Organized FAQs into three categories: About Our Photo Booth, Digital Copies & Guestbook, and Booking & Payment
+- Added 13 comprehensive FAQ items covering booth type, props, backdrops, setup, digital files, guestbook, deposits, cancellations, and rescheduling
+
 ### November 15, 2024
 - Updated packages page with official photo booth rental packages
 - Replaced placeholder photography content with actual service offerings
